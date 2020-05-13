@@ -12,12 +12,13 @@ class Project(models.Model):
     def create_project_from_template(self):
         if " (TEMPLATE)" in self.name:
             new_name = self.name.replace(" (TEMPLATE)", " (COPY)")
-
+        else:
+            new_name = self.name + " (COPY)"
         new_project = self.copy(default={'name': new_name,
                                          'active': True,
                                          'total_planned_hours': 0.0,
                                          'alias_name': False})
-        if new_project.subtask_project_id != new_project.id:
+        if new_project.subtask_project_id != new_project:
             new_project.subtask_project_id = new_project.id
 
         # SINCE THE END DATE DOESN'T COPY OVER ON TASKS

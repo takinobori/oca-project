@@ -14,12 +14,17 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: project_tag
-#: model:ir.model,name:project_tag.model_project_project
-msgid "Project"
+#: model:ir.model.fields,field_description:project_tag.field_project_project__tag_ids
+msgid "Tags"
 msgstr ""
 
 #. module: project_tag
-#: model:ir.model.fields,field_description:project_tag.field_project_project__tag_ids
-msgid "Tags"
+#: model_terms:ir.ui.view,arch_db:project_tag.project_tags_view_inherit_form
+msgid "Tags..."
+msgstr ""
+
+#. module: project_tag
+#: model:ir.model,name:project_tag.model_project_project
+msgid "WBS element"
 msgstr ""
 
