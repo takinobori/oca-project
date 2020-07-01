@@ -21,8 +21,8 @@ Available addons
 addon | version | summary
 --- | --- | ---
 [project_budget](project_budget/) | 12.0.1.0.0 | Adds budget management to projects.
-[project_category](project_category/) | 12.0.1.0.0 | Project Types
-[project_custom_info](project_custom_info/) | 12.0.1.0.0 | Add custom info in projects
+[project_category](project_category/) | 12.0.1.1.0 | Project Types
+[project_custom_info](project_custom_info/) | 12.0.2.0.0 | Add custom info in projects
 [project_deadline](project_deadline/) | 12.0.1.0.0 | Start date and deadline of projects.
 [project_description](project_description/) | 12.0.1.0.0 | Add a description to projects
 [project_hr](project_hr/) | 12.0.1.0.1 | Link HR with project
@@ -43,6 +43,7 @@ addon | version | summary
 [project_task_code](project_task_code/) | 12.0.1.0.1 | Sequential Code for Tasks
 [project_task_default_stage](project_task_default_stage/) | 12.0.1.0.0 | Recovery default task stage projects from v8
 [project_task_dependency](project_task_dependency/) | 12.0.1.0.0 | Enables to define dependencies (other tasks) of a task
+[project_task_digitized_signature](project_task_digitized_signature/) | 12.0.1.0.0 | Project Task Digitized Signature
 [project_task_material](project_task_material/) | 12.0.1.0.0 | Record products spent in a Task
 [project_task_material_stock](project_task_material_stock/) | 12.0.1.0.0 | Create stock and analytic moves from record products spent in a Task
 [project_task_project_required](project_task_project_required/) | 12.0.1.0.0 | Set project on task as a mandatory field
